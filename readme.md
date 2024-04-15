@@ -14,8 +14,12 @@
 
 ### Users
 - POST /api/users/register: Register a new user
-- POST /api/users/login: Login user
+- POST /api/users/login: Login a user
 - GET /api/users/profile: Get the user profile
+- GET /api/users/logout: logout the user
+- PUT /api/users/profile: Update the user profile
+- DELETE /api/users/profile: Delete the user profile
+
 
 
 ## Licences
