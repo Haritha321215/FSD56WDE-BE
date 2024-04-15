@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Haritha321215/FSD56WDE-BE/issues"
   },
-  "homepage": "https://github.com/Haritha321215/FSD56WDE-BE#readme"
+  "homepage": "https://github.com/Haritha321215/FSD56WDE-BE#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
 }
