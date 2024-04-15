@@ -19,7 +19,7 @@ console.log("connecting to mongodb..");
 mongoose
   .connect(config.MONGODB_URI)
   .then(() => {
-    console.log("connected to mongodb");
+    console.log("connected to mongodb..");
     // start the server
     // listen to the port
     app.listen(config.PORT, () => {

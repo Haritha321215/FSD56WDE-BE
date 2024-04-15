@@ -34,3 +34,4 @@ https://github.com/githubscientist/FSD56WDE-BE
   npm i dotenv  -(library to handle .envfiles)
   npm i express
   npm install --save-dev nodemon
+  npm install --save-dev nodemon
