@@ -23,8 +23,7 @@ mongoose
     // start the server
     // listen to the port
     app.listen(config.PORT, () => {
-      console.log(`server is running ${config.PORT}`);
-    });
+      console.log(`Server running on port ${config.PORT}`);    });
   })
   .catch((error) => {
     console.log("Error connecting to Mongodb", error.message);

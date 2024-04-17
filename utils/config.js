@@ -1,11 +1,14 @@
 // import the dotenv package
-require('dotenv').config();
+require("dotenv").config();
 
-// create necessory variable
-const MONGODB_URI = process.env.MONGODB_URI
+// create necessary variables
+const MONGODB_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
+const JWT_SECRET = process.env.JWT_SECRET;
+
 // export the variables
-module.exports ={
+module.exports = {
   MONGODB_URI,
-  PORT
+  PORT,
+  JWT_SECRET,
 };

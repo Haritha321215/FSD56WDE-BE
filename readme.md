@@ -10,6 +10,41 @@
       MONGODB_URI :Mongodb connection string
       PORT : Port number for the server
     4. Run npm run dev t start the server
+
+
+## Application
+Job Portal System
+
+## Features
+ - [x] User registration
+ - [x] User login
+
+- [] Admin Dashboard
+
+- [] Add a Company
+- [] Add a Company
+- [] Update a Company
+- [] Delete a Company
+- [] View a Company
+- [] View All Companies
+- [] Add Job
+- [] Update Job
+- [] Delete Job
+- [] View Job
+- [] View All Jobs
+- [] View All Users
+- [] User Dashboard
+
+[] View All Jobs
+[] View Job
+[] Apply Job
+[] View Applied Jobs
+
+ - [] View Profile
+ - [] Update Profile
+ - [] Delete Profile
+ - [] Logout
+
 ## API Endpoints
 
 ### Users
@@ -38,4 +73,7 @@ https://github.com/githubscientist/FSD56WDE-BE
   npm i dotenv  -(library to handle .envfiles)
   npm i express
   npm install --save-dev nodemon
-  npm install --save-dev nodemon
+  npm i jsonwebtoken
+  npm i cors
+  npm i cookie-parser
+  npm i morgan  // log

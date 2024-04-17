@@ -1,13 +1,19 @@
 // import the express router
-
-//require express
-const express = require('express');
-const userController = require('../controllers/userController');
+const express = require("express");
+const userController = require("../controllers/userController");
 const userRouter = express.Router();
+const auth = require("../middleware/auth");
 
 // define the endpoints
-// POST /api/users/register: Register a new user
-userRouter.post('/register', userController.register);
+// `POST /api/users/register`: Register a new user
+userRouter.post("/register", userController.register);
+userRouter.post("/login", userController.login);
 
-// export the app module
+userRouter.get("/profile", auth.verifyToken, userController.getUser);
+userRouter.put("/profile", auth.verifyToken, userController.updateUser);
+userRouter.delete("/profile", auth.verifyToken, userController.deleteUser);
+
+userRouter.get("/logout", auth.verifyToken, userController.logout);
+
+// export the router
 module.exports = userRouter;
