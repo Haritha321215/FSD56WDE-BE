@@ -21,29 +21,27 @@ Job Portal System
 
 - [] Admin Dashboard
 
-- [] Add a Company
-- [] Add a Company
-- [] Update a Company
-- [] Delete a Company
-- [] View a Company
-- [] View All Companies
-- [] Add Job
-- [] Update Job
-- [] Delete Job
-- [] View Job
-- [] View All Jobs
-- [] View All Users
+    - [] Add a Company
+    - [] Update a Company
+    - [] Delete a Company
+    - [] View a Company
+    - [] View All Companies
+    - [] Add Job
+    - [] Update Job
+    - [] Delete Job
+    - [] View Job
+    - [] View All Jobs
+    - [] View All Users
+
 - [] User Dashboard
-
-[] View All Jobs
-[] View Job
-[] Apply Job
-[] View Applied Jobs
-
- - [] View Profile
- - [] Update Profile
- - [] Delete Profile
- - [] Logout
+    - [] View All Jobs
+    - [] View Job
+    - [] Apply Job
+    - [] View Applied 
+    - [] View Profile
+    - [] Update Profile
+    - [] Delete Profile
+    - [] Logout
 
 ## API Endpoints
 

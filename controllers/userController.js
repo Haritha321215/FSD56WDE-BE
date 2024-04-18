@@ -150,7 +150,7 @@ const userController = {
             }
 
             // delete the user if the user exists
-            await user.deleteOne();
+            await user.remove();
 
             // return a success message
             response.json({ message: 'User deleted successfully' });

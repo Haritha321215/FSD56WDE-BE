@@ -1,30 +1,26 @@
-// copilate- extention - generate the code, content for readme
-
-// connect to the database
-// we use mongoose(library)
-
 // import the mongoose module
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 // import the config module
-const config = require("./utils/config");
+const config = require('./utils/config');
 
 // import the app module
-const app = require("./app");
+const app = require('./app');
 
-//console.log the message connecting to mongodb
-console.log("connecting to mongodb..");
+// console.log the message Connecting to MongoDB
+console.log('Connecting to MongoDB...');
 
 // connect to the database
-mongoose
-  .connect(config.MONGODB_URI)
-  .then(() => {
-    console.log("connected to mongodb..");
-    // start the server
-    // listen to the port
-    app.listen(config.PORT, () => {
-      console.log(`Server running on port ${config.PORT}`);    });
-  })
-  .catch((error) => {
-    console.log("Error connecting to Mongodb", error.message);
-  });
+mongoose.connect(config.MONGODB_URI)
+    .then(() => {
+        console.log('Connected to MongoDB');
+
+        // start the server
+        // listen to the port
+        app.listen(config.PORT, () => {
+            console.log(`Server running on port ${config.PORT}`);
+        });
+    })
+    .catch((error) => {
+        console.log('Error connecting to MongoDB:', error.message);
+    });
